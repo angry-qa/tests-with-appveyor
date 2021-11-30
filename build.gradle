@@ -17,11 +17,6 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.5.1'
 }
 
-// пример с одной зависиомстью
-// dependencies {
-//    testImplementation 'org.junit.jupiter:junit-jupiter:5.5.1'
-// }
-
 test {
     useJUnitPlatform()
 }
